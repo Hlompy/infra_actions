@@ -64,7 +64,7 @@ jobs:
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
-        key: ${{ secrets.SSH_KEY }} #adding_new
+        key: ${{ secrets.SSH_KEY }} #refresh
         passphrase: ${{ secrets.PASSPHRASE }} 
         script: |
           # Выполняет pull образа с DockerHub
